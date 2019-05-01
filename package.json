@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/jonas060831/renrenwebsite/issues"
   },
-  "homepage": "https://github.com/jonas060831/renrenwebsite#readme"
+  "homepage": "https://github.com/jonas060831/renrenwebsite#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {}
 }
