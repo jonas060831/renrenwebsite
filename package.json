@@ -1,0 +1,24 @@
+{
+  "name": "renrenwebsite",
+  "version": "1.0.0",
+  "description": "static website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonas060831/renrenwebsite.git"
+  },
+  "keywords": [
+    "static",
+    "catalog",
+    "small-business"
+  ],
+  "author": "iAmJOnAs06",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonas060831/renrenwebsite/issues"
+  },
+  "homepage": "https://github.com/jonas060831/renrenwebsite#readme"
+}
