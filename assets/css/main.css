@@ -8,8 +8,11 @@ html, body {
   color: #222;
 }
 
+
+/* Chatbox */
+
 .navbar {
-  padding: .8rem;
+  padding: .1rem;
 }
 
 .navbar-nav li {
@@ -19,7 +22,6 @@ html, body {
 .nav-link{
   font-size: 1.1em !important;
 }
-
 
 
 /* CAROUSEL */
@@ -44,14 +46,13 @@ html, body {
   text-shadow: 1px 1px 10px #000;
   padding-bottom:  1rem;
 }
-.btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+.fa-angle-double-down {
+  color: rgb(255, 255, 255);
+  font-size: 150%;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.85);
 }
-.btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
-}
+.fa-angle-double-down:hover{ color: rgb(195, 194, 194); }
+
 .jumbotron {
   padding: 1rem;
   border-radius: 0;
@@ -72,7 +73,7 @@ html, body {
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
-.fa-code {
+/* .fa-code {
   color: #e54d26;
 }
 .fa-bold {
@@ -84,7 +85,12 @@ html, body {
 .fa-code, .fa-bold, .fa-css3 {
   font-size: 4em;
   margin: 1rem;
-}
+} */
+
+
+
+
+
 
 /* FIXED BACKGROUND */
 #fixed img{
@@ -130,8 +136,8 @@ html, body {
 
 
 footer{
-  background-color: #3f3f3f;
-  color: #d5d5d5;
+  background-color: #b8b8b8;
+  color: #ffffff;
   padding-top: 2rem;
 }
 hr.light{
@@ -186,7 +192,9 @@ hr.light-100{
   }
 }
 @media (max-width: 576px) {
-
+  .carousel-inner img{
+    height: 100%;
+  }
   .carousel-caption {
     top: 35%;
   }
@@ -235,7 +243,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/mac.png');
+  background-image: url('/assets/images/kitchen.jpg');
   position: fixed;
   display: block;
   top: 0;
